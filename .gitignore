@@ -1,9 +1,14 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
-*.env
-.venv/
-venv/
-.pytest_cache/
+
+# Prohibited submission formats (Only .py allowed per professor)
+*.doc
+*.docx
+*.pdf
+*.pkl
+*.log
+*.txt
+*.csv
 .vscode/
-.idea/
