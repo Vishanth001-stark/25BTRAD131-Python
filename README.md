@@ -1,6 +1,6 @@
 # 25BTRAD131 - Python Programming Laboratory
 
-This repository contains academic coursework, laboratory reports, mini-projects, and experiential learning implementations for the **Python Programming Laboratory** course.
+This repository contains academic coursework source code, laboratory experiment implementations, mini-projects, and experiential learning programs for the **Python Programming Laboratory** course.
 
 ---
 
@@ -9,7 +9,9 @@ This repository contains academic coursework, laboratory reports, mini-projects,
 - **Name:** Vishanth R
 - **Register / USN:** 25BTRAD131
 - **Program / Branch:** B.Tech – Computer Science & Engineering (AI & Data Engineering)
+- **Course / Lab:** Python Programming Laboratory (25CSE204)
 - **Institution:** Faculty of Engineering & Technology (SET), Jain (Deemed-to-be University)
+- **Academic Year:** 2026 – 2027
 
 ---
 
@@ -18,17 +20,17 @@ This repository contains academic coursework, laboratory reports, mini-projects,
 ```text
 25BTRAD131-Python/
 ├── LAB EXPERIMENTS/
-│   ├── 25BTRAD131_ASSIGNMENT_TASK_PART_1.pdf
-│   ├── 25BTRAD131_LAB EXPERIMENTS_UNIT_1.pdf
-│   ├── 25BTRAD131_LAB EXPERIMENTS_UNIT_2.pdf
-│   ├── 25BTRAD131_LAB EXPERIMENTS_UNIT_3.pdf
-│   ├── 25BTRAD131_LAB EXPERIMENTS_UNIT_4.pdf
-│   └── 25BTRAD131_LAB EXPERIMENTS_UNIT_5.pdf
+│   ├── 25BTRAD131_ASSIGNMENT_TASK_PART_1.py
+│   ├── 25BTRAD131_LAB_EXPERIMENTS_UNIT_1.py
+│   ├── 25BTRAD131_LAB_EXPERIMENTS_UNIT_2.py
+│   ├── 25BTRAD131_LAB_EXPERIMENTS_UNIT_3.py
+│   ├── 25BTRAD131_LAB_EXPERIMENTS_UNIT_4.py
+│   └── 25BTRAD131_LAB_EXPERIMENTS_UNIT_5.py
 │
 ├── MINI PROJECT/
-│   ├── 25BTRAD131_MINI PROJECT_UNIT_1.pdf
-│   ├── 25BTRAD131_MINI PROJECT_UNIT_2.pdf
-│   └── 25BTRAD131_MINI PROJECT_UNIT_3.pdf
+│   ├── 25BTRAD131_MINI_PROJECT_UNIT_1.py
+│   ├── 25BTRAD131_MINI_PROJECT_UNIT_2.py
+│   └── 25BTRAD131_MINI_PROJECT_UNIT_3.py
 │
 └── Experiential Learning/
     ├── main.py
@@ -41,22 +43,95 @@ This repository contains academic coursework, laboratory reports, mini-projects,
 ## 📌 Contents Breakdown
 
 ### 1. LAB EXPERIMENTS
-Contains Unit 1 through Unit 5 laboratory reports and assignment tasks covering Python core syntax, control structures, functions, data structures, and advanced concepts:
-- **Assignment Task Part 1:** Python Programming Basics – Core Syntax, Pattern Loops & Variables
-- **Unit 1:** Environment Configuration, Basic I/O, Operators & Computational Math
-- **Unit 2:** Conditional Statements, Looping Constructs & Control Flow
-- **Unit 3:** Data Structures (Lists, Tuples, Dictionaries, Sets)
-- **Unit 4:** Functions, Modules & Exception Handling
-- **Unit 5:** Object-Oriented Programming & File Handling
+
+Each unit contains complete, runnable Python implementations with modular functions:
+
+- **`25BTRAD131_ASSIGNMENT_TASK_PART_1.py`**:
+  - Task 1: Basic Console Output
+  - Task 2: Nested Loops Pattern Generation
+  - Task 3: Single Statement String Display
+  - Task 4: Number Pyramid Pattern
+  - Task 5: Escape Sequence `\n` (Newlines)
+  - Task 6: Escape Sequence `\t` (Horizontal Tabs)
+  - Task 7: Single-line Comments in Code
+  - Task 8: Multi-line Comments (Docstrings)
+  - Task 9: Code Documentation & Comments
+  - Task 10: Variable Declaration & Output
+  - Task 11: Multi-Variable Storage & Output
+
+- **`25BTRAD131_LAB_EXPERIMENTS_UNIT_1.py`**:
+  - Exercise 1: Environment Configuration & Toolchain Setup Documentation
+  - Exercise 2: Basic Python Program Execution
+  - Exercise 3: Variables, Operators & Formatted Input/Output
+  - Exercise 4 (Part A): Simple Calculator (Arithmetic Operations)
+  - Exercise 4 (Part B): Geometric Area Calculations (Rectangle & Circle)
+
+- **`25BTRAD131_LAB_EXPERIMENTS_UNIT_2.py`**:
+  - Exercise 5: Number Guessing Game (Random Generation & While Loops)
+  - Exercise 6: Prime Number and Factorial Programs (Edge Case Validation)
+  - Exercise 7: Fibonacci Series Using Recursion
+
+- **`25BTRAD131_LAB_EXPERIMENTS_UNIT_3.py`**:
+  - Exercise 8: Contact Book Using Lists & Dictionaries (CRUD Operations)
+  - Exercise 9: Student Academic Grading System (Boundary Analysis)
+  - Exercise 10: Word & Element Frequency Counter Using Dictionaries
+
+- **`25BTRAD131_LAB_EXPERIMENTS_UNIT_4.py`**:
+  - Exercise 11: Production Server Log File Analyzer & Keyword Summarizer
+  - Exercise 12: Student Data Manager with Persistent File I/O (CRUD)
+  - Exercise 13: CSV-Based Enterprise Payroll Management System
+
+- **`25BTRAD131_LAB_EXPERIMENTS_UNIT_5.py`**:
+  - Exercise 14: Bank Account Management System (OOP, Encapsulation & Validation)
+  - Exercise 15: Central Library Management System (OOP & Inheritance)
+  - Exercise 16: Multi-Dice Monte Carlo Simulation & Outcome Frequency Analysis
+
+---
 
 ### 2. MINI PROJECT
-Problem-solving component reports and mini projects for Units 1, 2, and 3:
-- **Unit 1 Mini Project**
-- **Unit 2 Mini Project**
-- **Unit 3 Mini Project**
+
+Comprehensive project solutions integrating GUI development, cryptography, and data analytics:
+
+- **`25BTRAD131_MINI_PROJECT_UNIT_1.py`**:
+  - Multi-Category Unit Converter (Length, Weight, Temperature).
+  - Built with Tkinter GUI and includes headless `--cli` mode.
+- **`25BTRAD131_MINI_PROJECT_UNIT_2.py`**:
+  - Secure OTP Generator & Verification System.
+  - Supports numeric & alphanumeric tokens, SHA-256 digest auditing, phone number masking, and 60-second time-to-live verification.
+- **`25BTRAD131_MINI_PROJECT_UNIT_3.py`**:
+  - Problem 1: Classroom Attendance Tracker (Nested Dictionaries, Session Logging, Attendance Shortage Audit).
+  - Problem 2: Retail Sales Data Analyzer (Inventory Management, Revenue Computation, Multi-Dataset Comparison).
+
+---
 
 ### 3. Experiential Learning (ExpLe)
-Hands-on application development: **Password Storage System & CLI Vault**
-- `password_manager.py`: Core logic with PBKDF2 hashing, AES/Fernet encryption, and persistent vault storage.
-- `main.py`: Interactive command-line interface with masked password input and vault management.
-- `test_password_manager.py`: Comprehensive test suite verifying hashing, encryption, and CRUD operations.
+
+Production-grade secure password storage vault:
+- **`password_manager.py`**: Core cryptographic engine with PBKDF2 hashing, AES/Fernet encryption, and persistent pickle storage.
+- **`main.py`**: Interactive CLI vault interface with masked master password authentication.
+- **`test_password_manager.py`**: Complete unit test suite verifying vault integrity and cryptographic operations.
+
+---
+
+## 🚀 How to Run
+
+Execute any script directly using Python 3:
+
+```bash
+# Run Lab Experiments
+python "LAB EXPERIMENTS/25BTRAD131_ASSIGNMENT_TASK_PART_1.py"
+python "LAB EXPERIMENTS/25BTRAD131_LAB_EXPERIMENTS_UNIT_1.py"
+python "LAB EXPERIMENTS/25BTRAD131_LAB_EXPERIMENTS_UNIT_2.py"
+python "LAB EXPERIMENTS/25BTRAD131_LAB_EXPERIMENTS_UNIT_3.py"
+python "LAB EXPERIMENTS/25BTRAD131_LAB_EXPERIMENTS_UNIT_4.py"
+python "LAB EXPERIMENTS/25BTRAD131_LAB_EXPERIMENTS_UNIT_5.py"
+
+# Run Mini Projects
+python "MINI PROJECT/25BTRAD131_MINI_PROJECT_UNIT_1.py"        # GUI mode
+python "MINI PROJECT/25BTRAD131_MINI_PROJECT_UNIT_1.py" --cli  # Headless CLI mode
+python "MINI PROJECT/25BTRAD131_MINI_PROJECT_UNIT_2.py" --test # Test mode
+python "MINI PROJECT/25BTRAD131_MINI_PROJECT_UNIT_3.py"
+
+# Run Experiential Learning Tests
+python "Experiential Learning/test_password_manager.py"
+```
